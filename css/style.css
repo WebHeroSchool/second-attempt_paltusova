@@ -6,6 +6,27 @@
     font-style: normal;
     font-display: swap;
 }
-* {
-	font-family: 'Roboto';
+@font-face {
+  font-family: "PTSerif-Bold";
+
+  src: url("../fonts/PTSerif-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/PTSerif-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+.menu__item {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+.main-content__title {
+    font-family: "PTSerif-Bold";
+    font-size: 50px;
+}
+.main-content__subtitle {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+.main-content__button {
+    font-family: 'Roboto';
+    font-size: 14px;
 }
